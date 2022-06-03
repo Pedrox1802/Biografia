@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.Cabecalho{
+    display: grid;
+    grid-template-columns: 100px;
+} 
+.item{
+    font-size: 50px;
+    margin: 20px;
+    
+}
+.titulo{
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    font-size: 100px;
+    margin-right: 990px;
+    color: #fff;
+    
+}
+
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #004F4D 0%, #1F2024 99%, #e6dcd9 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+    border-color: #fff;
+}
+.cta:hover {
+    background: linear-gradient(45deg, #4B4952 0%, #004F4D 99%, #e6dcd9 100%);
+}
+
+a{
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    text-decoration: none;
+    color: black;
+    border-width: 3px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+body{
+    background-color: black;
+    background-image: url(minimalist-black-wallpaper.png);
+    background-repeat: no-repeat;
+}
+
